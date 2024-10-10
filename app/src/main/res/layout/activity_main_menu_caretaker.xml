@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainMenuCaretaker">
+
+    <TextView
+        android:id="@+id/tv_mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN MENU"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_viewmedhistory_caretaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="View Medication History"
+            android:textSize="24sp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/btn_managemed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Manage Medication"
+            android:textSize="24sp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/btn_manageprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Manage Profile"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout_caretaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textSize="24sp" />
+
+</LinearLayout>

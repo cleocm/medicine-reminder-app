@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:text="User Category"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <RadioGroup
+                android:id="@+id/rbgroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_caretaker"
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:text="Caretaker"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="226dp"
+                    tools:layout_editor_absoluteY="137dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_elderly"
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:text="Elderly"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="137dp" />
+            </RadioGroup>
+
+
+            <Space
+                android:id="@+id/space9"
+                android:layout_width="371dp"
+                android:layout_height="12dp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="185dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <EditText
+                android:id="@+id/et_email_signup"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Required"
+                android:inputType="text"
+                android:textSize="24sp"
+                android:textColorHint="#E15A5A"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="224dp" />
+
+            <Space
+                android:id="@+id/space10"
+                android:layout_width="371dp"
+                android:layout_height="12dp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Space
+                android:id="@+id/space11"
+                android:layout_width="371dp"
+                android:layout_height="12dp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="281dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <EditText
+                android:id="@+id/et_password_signup"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Required"
+                android:textSize="24sp"
+                android:inputType="textPassword"
+                android:textColorHint="#E15A5A"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <Space
+                android:id="@+id/space12"
+                android:layout_width="371dp"
+                android:layout_height="12dp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="365dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:text="Re-enter Password"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <EditText
+                android:id="@+id/et_passwordcheck_signup"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Required"
+                android:textSize="24sp"
+                android:inputType="textPassword"
+                android:textColorHint="#E15A5A"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="404dp" />
+
+            <Space
+                android:id="@+id/space13"
+                android:layout_width="371dp"
+                android:layout_height="12dp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="454dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_caretaker_extras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="377dp" />
+
+                <EditText
+                    android:id="@+id/et_phone_number_signup"
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Required"
+                    android:inputType="phone"
+                    android:textColorHint="#E15A5A"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="404dp" />
+
+                <Space
+                    android:id="@+id/space14"
+                    android:layout_width="371dp"
+                    android:layout_height="12dp"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="454dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:text="Elderly User ID (max 2)"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="458dp" />
+
+                <EditText
+                    android:id="@+id/et_elderly_uid_1"
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Elderly UID 1"
+                    android:textSize="24sp"
+                    android:inputType="text"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="486dp" />
+
+                <EditText
+                    android:id="@+id/et_elderly_uid_2"
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Elderly UID 2"
+                    android:textSize="24sp"
+                    android:inputType="text"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="530dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

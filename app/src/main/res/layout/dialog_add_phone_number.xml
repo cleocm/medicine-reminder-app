@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_phone_number_addphonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel_addphonenumber"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_addupdate_addphonenumber"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

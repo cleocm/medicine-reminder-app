@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "436844220037",
+    "firebase_url": "https://medicinereminderapp-fca68-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "medicinereminderapp-fca68",
+    "storage_bucket": "medicinereminderapp-fca68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436844220037:android:020c40d8b1efaa5828e3ec",
+        "android_client_info": {
+          "package_name": "com.example.loginandsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fUwbVyTb6-CP4iauFkrXLNicrTlBXDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436844220037:android:e3d06ee0a117beac28e3ec",
+        "android_client_info": {
+          "package_name": "com.example.managemedicine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fUwbVyTb6-CP4iauFkrXLNicrTlBXDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436844220037:android:36a9a839c800d78228e3ec",
+        "android_client_info": {
+          "package_name": "com.example.medicinereminderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fUwbVyTb6-CP4iauFkrXLNicrTlBXDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
